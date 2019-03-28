@@ -1,0 +1,145 @@
+.App {
+  text-align: left;
+  text-emphasis-position: center;
+  
+ 
+}
+body{ 
+  background-image: url("law1.jpg");
+  /* background-color:#20A39E; */
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.name{
+  font-size: 30px;
+  color:white;
+  font:bold;
+  font-family: Cambria;
+ color:#fff;
+  background-color:rgb(15, 119, 116) ;
+   padding:20px;
+    margin-right:3px;
+}
+.centered{
+  position: absolute;
+  top: 80%;
+  left:65%;
+  color:whitesmoke;
+  transform: translate(-50%,-50%);
+}
+ul{
+  list-style:none;
+  display: inline-block;
+}
+ul li{
+  display: inline-block;
+  padding: 10px 20px;
+  cursor:pointer;
+  background-color:#eee;
+  color:#7B8585;
+  
+  transition:0.3s;
+}
+ul li:hover{
+  background-color:#beecea;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60vmin;
+}
+
+.App-header {
+  background-color:#7686a5;
+  min-height: 200vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(59, 43, 43);
+}
+
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.formlabel
+{
+margin-bottom: 0.10cm;
+color: #222;
+ size: 0.4cm;
+ font-size: 20px;
+ font-style:oblique;
+height:60px;
+
+}
+.button{
+  height:20px;
+}
+.input{
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #cfcfcf;
+}
+
+input::placeholder{
+  font-size: 0.4cm;
+  height:5cm;
+    font-weight:lighter;
+  color: #999;
+}
+.tittle{
+  font-size:20px;
+  height:10px;
+  font-style:oblique;
+}
+.login-box{
+  width: 400px;
+/*margin-left: auto ;
+margin-right: auto ; */
+  height:400px;
+  background:#948c90;
+  color:#fff;
+  
+position:relative;
+      box-sizing: border-box;
+}
+.FormField{
+   font-size: 15px;
+
+}
+.tittle{
+  font-size:40px;
+  font-style:bold; 
+}
+
+.heading{
+  font-size:30px;
+  color: #998b92;
+  font-style:bold;
+  
+}
+.details{
+ color: rgb(173, 204, 201);
+
+}
+
+.pic {
+  /*background-image: url(./pic.png);*/
+  height:100px;
+}
+.head{
+  
+ color: rgb(108, 158, 153);
+}
